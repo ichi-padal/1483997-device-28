@@ -3,10 +3,204 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+    <div class="wrap">
+      <header>
+        <div class="logo-wrap">
+          <a href="#">device</a>
+        </div>
+        <div>
+          <form action="">
+            <input type="search" placeholder="Поиск по сайту">
+          </form>
+          <div>
+            <a href="#">Войти</a>
+            <a href="#">Сравнить</a>
+            <a href="#">Корзина</a>
+          </div>
+          <nav>
+            <a href="#">Каталог товаров</a>
+            <a href="#">Доставка</a>
+            <a href="#">Гарантия</a>
+            <a href="#">Контакты</a>
+          </nav>
+        </div>
+      </header>
+    </div>
+      <main>
+        <div class="wrap">
+          <section class="slider-promo">
+            <div class="slide">
+              <div class="slider-img">
+                <img src="https://via.placeholder.com/384x486" alt="палка для селфи">
+              </div>
+              <div class="slider-description">
+                <b>Делай селфи,<br>как Бен Стиллер!</b>
+                <p>Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
+                <a class="btn" href="#">Подробнее</a>
+                <div class="slider-specification">
+                  <div class="slider-feature">
+                    8,5 м
+                    <span>Длина палки</span>
+                  </div>
+                  <div class="slider-feature">
+                    5 кг
+                    <span>Вес палки</span>
+                  </div>
+                  <div class="slider-feature">
+                    Карбон
+                    <span>Материал</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="control">
+              <input type="radio">
+              <input type="radio">
+              <input type="radio">
+            </div>
+          </section>
+
+          <section class="cards-wrap">
+            <a href="#" class="card">
+              <img src="https://via.placeholder.com/160" alt="Виртуальная реальность">
+              <h4>Виртуальная реальность</h4>
+            </a>
+            <a href="#" class="card">
+              <img src="https://via.placeholder.com/160" alt="Виртуальная реальность">
+              <h4>Моноподы для селфи</h4>
+            </a>
+            <a href="#" class="card">
+              <img src="https://via.placeholder.com/160" alt="Виртуальная реальность">
+              <h4>Экшн-камеры</h4>
+            </a>
+            <a href="#" class="card">
+              <img src="https://via.placeholder.com/160" alt="Виртуальная реальность">
+              <h4>Фитнес-браслеты</h4>
+            </a>
+            <a href="#" class="card">
+              <img src="https://via.placeholder.com/160" alt="Виртуальная реальность">
+              <h4>Умные часы</h4>
+            </a>
+            <a href="#" class="card">
+              <img src="https://via.placeholder.com/160" alt="Квадрокоптеры">
+              <h4>Квадрокоптеры</h4>
+            </a>
+          </section>
+        </div>
+
+        <section class="slider-services">
+          <div class="wrap">
+            <div class="slide">
+              <h3>Доставка</h3>
+              <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
+            </div>
+            <div class="control">
+              <a href="#">Доставка</a>
+              <a href="#">Гарантия</a>
+              <a href="#">Кредит</a>
+            </div>
+          </div>
+        </section>
+
+        <div class="wrap">
+          <section class="brands">
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="https://via.placeholder.com/260x100" alt="Бренд">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="https://via.placeholder.com/260x100" alt="Бренд">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="https://via.placeholder.com/260x100" alt="Бренд">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="https://via.placeholder.com/260x100" alt="Бренд">
+                </a>
+              </li>
+            </ul>
+          </section>
+
+          <section class="info">
+            <article class="about">
+              <h3>О нас</h3>
+              <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
+              <p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
+              <ul>
+                <li>Деловые Линии</li>
+                <li>Автотрейдинг</li>
+                <li>ЖелДорЭкспедиция</li>
+              </ul>
+              <a class="btn" href="#">Подробнее о нас</a>
+            </article>
+            <article class="contacts">
+              <h3>Контакты</h3>
+              <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете
+                проверить работоспособность покупки. Всякое бывает.</p>
+              <a class="map" href="#">
+                <img src="https://via.placeholder.com/560x222" alt="карта">
+              </a>
+              <a class="btn" href="#">Напишите нам</a>
+            </article>
+
+          </section>
+        </div>
+      </main>
+
+      <footer>
+        <div class="wrap">
+          <div class="footer-header">
+            <div class="logo-wrap">
+              <a href="#">device</a>
+            </div>
+            <div>
+              <a href="#">Войти</a>
+              <a href="#">Сравнить</a>
+              <a href="#">Корзина</a>
+            </div>
+          </div>
+          <div class="footer-info">
+            <div class="footer-address">
+              <span>г. Москва, ул. Строителей, 15</span>
+            </div>
+            <div class="footer-services">
+              <a href="#">Доставка</a>
+              <a href="#">Гарантия</a>
+              <a href="#">Контакты</a>
+            </div>
+            <div class="footer-phone">
+              <a href="tel:+74954959595">Тел.: +7 (495) 495-95-95</a>
+            </div>
+          </div>
+          <div class="footer-social-wrap">
+            <div class="footer-line"></div>
+            <div class="social">
+              <a href="#">
+                <img src="https://via.placeholder.com/32" alt="social">
+              </a>
+              <a href="#"><img src="https://via.placeholder.com/32" alt="social">
+              </a>
+              <a href="#">
+                <img src="https://via.placeholder.com/32" alt="social">
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </footer>
+
+
 
   </body>
 </html>
