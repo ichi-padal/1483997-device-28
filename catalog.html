@@ -10,25 +10,39 @@
 
 <div class="wrap">
   <header>
-    <div class="logo-wrap">
-      <a><img src="img/logo-device.svg" alt="device"></a>
-    </div>
+    <a><img src="img/logo-device.svg" alt="device"></a>
+    <form class="search" action="">
+      <input type="search" placeholder="Поиск по сайту">
+      <input type="submit">
+    </form>
     <div>
-      <form action="">
-        <input type="search" placeholder="Поиск по сайту">
-      </form>
-      <div>
-        <a href="#">Войти</a>
-        <a href="#">Сравнить</a>
-        <a href="#">Корзина</a>
-      </div>
-      <nav>
-        <a href="#">Каталог товаров</a>
-        <a href="#">Доставка</a>
-        <a href="#">Гарантия</a>
-        <a href="#">Контакты</a>
-      </nav>
+      <a href="#">Войти</a>
+      <a href="#">Сравнить</a>
+      <a href="#">Корзина</a>
     </div>
+    <nav>
+      <ul>
+        <li><a href="">Каталог товаров</a>
+          <ul class="sub-nav">
+            <li>
+              <a href="#">Виртуальная реальность</a>
+              <a href="catalog.html">Моноподы для селфи</a>
+              <a href="#">Экшн-камеры</a>
+            </li>
+            <li>
+              <a href="#">Фитнес-браслеты</a>
+              <a href="#">Умные часы</a>
+            </li>
+            <li>
+              <a href="#">Квадрокоптеры</a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#">Доставка</a></li>
+        <li><a href="#">Гарантия</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </nav>
   </header>
 </div>
 
@@ -47,7 +61,7 @@
     <aside>
       <h2>Фильтр:</h2>
       <form class="filter" action="">
-
+        
       </form>
     </aside>
 
@@ -161,14 +175,11 @@
     <div class="footer-social-wrap">
       <div class="footer-line"></div>
       <div class="social">
-        <a href="#">
-          <img src="img/icon/i-fb.svg" alt="fb">
+        <a class="fb" title="facebook" href="#">
         </a>
-        <a href="#">
-          <img src="img/icon/i-inst.svg" alt="instagram">
+        <a class="inst" title="instagram" href="#">
         </a>
-        <a href="#">
-          <img src="img/icon/i-twi.svg" alt="twitter">
+        <a class="twit" title="twitter" href="#">
         </a>
       </div>
     </div>
